@@ -51,7 +51,6 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 
 
 
-
 - [12/19/2023] 🔥 We released **WizardMath-7B-V1.1** trained from Mistral-7B, the **SOTA 7B math LLM**, achieves **83.2 pass@1** on GSM8k, and **33.0 pass@1** on MATH.
 
 - [12/19/2023] 🔥 **WizardMath-7B-V1.1** outperforms **ChatGPT 3.5**, **Gemini Pro**, **Mixtral MOE**, and **Claude Instant** on GSM8K pass@1.
@@ -65,7 +64,7 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 
 | Model | Checkpoint | Paper  | GSM8k | MATH  |
 | ----- |------| ---- |------|-------| 
-| **WizardMath-7B-V1.1** | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-7B-V1.1" target="_blank">HF Link</a>  |  📃 <a href="https://arxiv.org/abs/2308.09583" target="_blank">[WizardMath]</a>| 	 **83.2**  |  **33.0** | 
+| **WizardMath-7B-V1.1** | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-7B-V1.1" target="_blank">HF Link</a>  |  📃 <a href="https://arxiv.org/abs/2308.09583" target="_blank">[WizardMath]</a>| 	 **83.2**  |  **33.0** |
 | WizardMath-70B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-70B-V1.0" target="_blank">HF Link</a> |  📃 <a href="https://arxiv.org/abs/2308.09583" target="_blank">[WizardMath]</a>| **81.6**  |  **22.7**	|
 | WizardMath-13B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-13B-V1.0" target="_blank">HF Link</a> |  📃 <a href="https://arxiv.org/abs/2308.09583" target="_blank">[WizardMath]</a>| **63.9**  |  **14.0** |
 | WizardMath-7B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-7B-V1.0" target="_blank">HF Link</a>  |  📃 <a href="https://arxiv.org/abs/2308.09583" target="_blank">[WizardMath]</a>| 	 **54.9**  |  **10.7** |    
@@ -77,7 +76,7 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
     
    
 | <sup>Model</sup> | <sup>Checkpoint</sup> | <sup>Paper</sup> |<sup>MT-Bench</sup> | <sup>AlpacaEval</sup>  | <sup>GSM8k</sup> | <sup>HumanEval</sup>  | <sup>Demo</sup>  | <sup>License</sup>|
-| ----- |------| ---- |------|-------| ----- | ----- | ----- | ----- | 
+| ----- |------| ---- |------|-------| ----- | ----- | ----- | ----- |
 | <sup>**WizardLM-70B-V1.0**</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-70B-V1.0" target="_blank">HF Link</a> </sup>|<sup>📃**Coming Soon**</sup>| <sup>**7.78**</sup> | <sup>**92.91%**</sup>	 |<sup>**77.6%**</sup>	 | <sup>   **50.6**</sup>| |<sup> <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 License </a></sup> |
 | <sup>WizardLM-13B-V1.2</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-13B-V1.2" target="_blank">HF Link</a> </sup>|  | <sup>7.06</sup> | <sup>89.17%</sup>	 |<sup>55.3%</sup>	 | <sup>36.6   </sup>| [Demo](http://47.103.63.15:50087/) |<sup> <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 License </a></sup> |
 | <sup>WizardLM-13B-V1.1</sup> |<sup> 🤗 <a href="https://huggingface.co/WizardLM/WizardLM-13B-V1.1" target="_blank">HF Link</a> </sup> |  | <sup>6.76</sup>  |<sup>86.32%</sup>	 | 	 | <sup>25.0   </sup>|  | <sup>Non-commercial</sup>|
@@ -91,8 +90,7 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 Please cite the paper if you use the data or code from WizardLM.
 
 ```
-@inproceedings{
-xu2024wizardlm,
+@inproceedings{\nxu2024wizardlm,
 title={Wizard{LM}: Empowering Large Pre-Trained Language Models to Follow Complex Instructions},
 author={Can Xu and Qingfeng Sun and Kai Zheng and Xiubo Geng and Pu Zhao and Jiazhan Feng and Chongyang Tao and Qingwei Lin and Daxin Jiang},
 booktitle={The Twelfth International Conference on Learning Representations},
@@ -103,8 +101,7 @@ url={https://openreview.net/forum?id=CfXh93NDgH}
 Please cite the paper if you use the data or code from WizardCoder.
 
 ```
-@inproceedings{
-luo2024wizardcoder,
+@inproceedings{\nluo2024wizardcoder,
 title={WizardCoder: Empowering Code Large Language Models with Evol-Instruct},
 author={Ziyang Luo and Can Xu and Pu Zhao and Qingfeng Sun and Xiubo Geng and Wenxiang Hu and Chongyang Tao and Jing Ma and Qingwei Lin and Daxin Jiang},
 booktitle={The Twelfth International Conference on Learning Representations},
@@ -134,7 +131,7 @@ Thank you for your understanding.
 
 ## Hiring
 
-- &#x1F4E3; We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
+- 📣 We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
 
 <!-- Although on our **complexity-balanced test set**, **WizardLM-7B has more cases that are preferred by human labelers than ChatGPT** in the high-complexity instructions (difficulty level >= 8), it still lags behind ChatGPT on the entire test set, and we also consider WizardLM to still be in a **baby state**. This repository will **continue to improve WizardLM**, train on larger scales, add more training data, and innovate more advanced large-model training methods. -->
 
@@ -163,9 +160,7 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
 ```
 
-
 **CoT Version:** （❗For the **simple** math questions, we do NOT recommend to use the CoT prompt.） 
-
 
 ```
 "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."
@@ -246,3 +241,6 @@ The resources, including code, data, and model weights, associated with this pro
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nlpxucan/WizardLM&type=Timeline)](https://star-history.com/#nlpxucan/WizardLM&Timeline)
 
+Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+
+"
